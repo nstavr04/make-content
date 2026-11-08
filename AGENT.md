@@ -21,7 +21,7 @@ Walk the user through this one step at a time. Explain in one line what each too
 2. **Writing and research skills** (both modes):
    - [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill): `ig-viral` (finds over-performing reels), `ig-reel` (hooks and timed script), `ig-caption`, `ig-human` (removes the AI sound from text), `ig-carousel`.
    - [content-skills](https://github.com/artemnovitckii/content-skills): `viral-hooks` and `storytelling`.
-3. **Research in the browser:** [OpenCLI](https://github.com/jackwener/OpenCLI). It turns websites into a CLI and runs through the user's own logged-in Chrome (via its extension), so you can search Instagram and TikTok as them. The user logs in to Instagram and TikTok in Chrome themselves.
+3. **Research in the browser:** [OpenCLI](https://github.com/jackwener/OpenCLI). It turns websites into a CLI and runs through the user's own logged-in Chrome (via its extension), so you can search Instagram and TikTok as them. The user logs in to Instagram and TikTok in Chrome themselves. Tell them once: letting an agent use their Instagram or TikTok account is a gray area under those platforms' terms, so it's at their own risk.
 4. **Footage mode:**
    - [Video Use](https://github.com/browser-use/video-use) for cutting, plus `ffmpeg`.
    - **Transcription:** [ElevenLabs](https://elevenlabs.io) Scribe is the best choice. It needs an ElevenLabs API key, which the user creates and saves in their own `.env` (never print it). If they don't want a paid key, use a local Whisper (whisper.cpp, faster-whisper or WhisperX) if their machine can run it. Read the Whisper caveat in Part 2.
